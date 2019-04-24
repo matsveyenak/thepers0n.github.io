@@ -317,3 +317,8 @@ justify-content: center */
 {
     color:#CCCCCC;
 }
+
+#map {
+    width: 80vw;
+    height: 80vh;
+}
