@@ -140,14 +140,12 @@ th
 }
 h2
 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 700;
 }
 a {
     color: #666666;
     text-decoration: none;
-    /* -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity; */
 }
     
 a:hover, a:focus {  
@@ -211,16 +209,16 @@ background-attachment: fixed;
     padding-left: 0px;
 }
 
-
+.col-md-4  .img-container-media-image h2
+{
+    font-size: 1.6rem;
+}
 
 
 .navbar-brand
 {
     position:absolute; 
     margin-left: 15px;
-    /*top:50%; 
-    left:50%; 
-    transform:translate(-50%, -50%);  */
     font-size: 3rem;
     font-weight: 800;
 }
@@ -333,7 +331,6 @@ background-attachment: fixed;
     {
         margin-left: 50px;
     }
-
 }
 
 @media only screen and (max-width: 991.98px) {
@@ -353,7 +350,7 @@ background-attachment: fixed;
         position: fixed;
         right: 0;
         margin-top: 50px;
-        height: 100vh;
+        height: calc(100vh - 50px);
         width:100%;
         -webkit-transform: translateX(100%);
         -ms-transform: translateX(100%);
@@ -573,7 +570,7 @@ background-attachment: fixed;
 .container .text-block
 {
   display: flex;
-  align-items: center 
+  align-items: center; 
 }
 
 .container .text-block p
