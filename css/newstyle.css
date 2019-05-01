@@ -3,7 +3,7 @@ font-family: 'Montserrat', sans-serif;
 line-height: 1.6;
 overflow-x: hidden;
 color: #666666;
-min-width: 330px;
+min-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
@@ -40,7 +40,7 @@ th
 {
     h1
     {
-        font-size: 3.5rem;
+        font-size: 3.3rem;
     }
     h4
     {
@@ -52,7 +52,7 @@ th
     }
     th
     {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     td
     {
@@ -60,7 +60,7 @@ th
         font-size: 1.5rem;
     }
     .md-padding {
-    padding-top: 6%;
+    padding-top: 8%;
     padding-bottom: 4%;
     }
     .section-header {
@@ -120,7 +120,7 @@ th
     }
     th
     {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
     td
     {
@@ -218,6 +218,10 @@ background-attachment: fixed;
     font-size: 1.6rem;
 }
 
+footer h2
+{
+    margin-bottom: 15px;
+}
 
 .navbar-brand
 {
@@ -343,9 +347,26 @@ background-attachment: fixed;
     {
         margin-left: 50px;
     }
+    .col-md-6
+    {
+        margin-bottom: 50px;
+    }
+    .col-md-4
+    {
+        padding-bottom: 50px;
+    }
 }
 
 @media only screen and (max-width: 991.98px) {
+    
+    .col-md-6
+    {
+        margin-bottom: 20px;
+    }
+    .col-md-4
+    {
+        padding-bottom: 20px;
+    }
     #nav {
         padding: 0px 0px;
     }
@@ -490,7 +511,7 @@ background-attachment: fixed;
 
 .img-container {
     max-width:100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     overflow: hidden;
 }
 
@@ -501,7 +522,6 @@ background-attachment: fixed;
 
 .img-container-free {
     width:100%;
-    margin-н: 20px;
     overflow: hidden;
 }
 .img-container-zoom-on-hover {
@@ -551,9 +571,11 @@ background-attachment: fixed;
 
 .img-container-footer
 {
+    margin-top: 10px;
     padding-left: 0;
     max-width: 140px;
 }
+
 .footer-text
 {
     color:#CCCCCC;
@@ -565,18 +587,10 @@ background-attachment: fixed;
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
     height: 63vh;
-    margin: 0 15px;
+    margin-left: 15px;
     margin-bottom: 20px;
 }
 
-.col-md-6
-{
-    margin-bottom: 60px;
-}
-.col-md-4
-{
-    padding-bottom: 60px;
-}
 .row
 {
     margin-left: auto;
