@@ -158,13 +158,34 @@ a:hover, a:focus {
     opacity: 0.8;
     color: #CCCCCC; 
 }
-ul, ol {
+ul{
     margin: 0;
     padding: 0;
     list-style: none
 }   
 
-
+ol
+{
+    padding: 0;
+}
+@media (min-width: 576px)
+{
+    ol
+    {
+        padding-left: 20px;
+    } 
+}  
+@media (max-width: 575.98px)
+{
+    ol
+    {
+        padding-left: 10px;
+    }
+}
+ol li h3
+{
+    padding-left: 15px;
+}
 header {
     position: relative;
 }
